@@ -28,8 +28,5 @@ jobs:
     needs: [install_ansible, install_ansible_lint]
     runs-on: self-hosted
     steps:
-    - name: Linting ansible playbook
+    - name: Linting ansible playbooks
       run: ansible-lint
-
-
-
