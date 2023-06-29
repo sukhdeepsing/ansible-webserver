@@ -1,3 +1,4 @@
+---
 name: Ansible-GitHub actions
 on: push
 jobs:
