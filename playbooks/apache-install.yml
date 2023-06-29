@@ -24,7 +24,7 @@
         state: touch
         owner: root
         group: root
-        mode: 755
+        mode: 0755
     - name: Add content to the index.html file
       lineinfile:
         path: /var/www/html/index.html
