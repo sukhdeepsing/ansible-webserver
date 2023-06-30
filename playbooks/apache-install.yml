@@ -26,6 +26,6 @@
         group: root
         mode: 0755
     - name: Add content to the index.html file
-      lineinfile:
+      linfile:
         path: /var/www/html/index.html
         line: Hello GitHub-Ansible World!
